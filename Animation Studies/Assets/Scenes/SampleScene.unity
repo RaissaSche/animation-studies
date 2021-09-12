@@ -328,6 +328,18 @@ MonoBehaviour:
           m_StringArgument: Shake
           m_BoolArgument: 0
         m_CallState: 2
+      - m_Target: {fileID: 1558536238}
+        m_TargetAssemblyTypeName: UnityEngine.Animator, UnityEngine
+        m_MethodName: Play
+        m_Mode: 5
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: Fear
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &555113177
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -551,7 +563,7 @@ Transform:
   m_GameObject: {fileID: 807256367}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: -0.1, y: -1.61, z: -2.85}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalScale: {x: 1.1838, y: 1.1838, z: 1.7353324}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 2
@@ -632,13 +644,13 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 963194225}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: -0.04, z: -9.94}
+  m_LocalRotation: {x: 0.02272332, y: -0, z: -0, w: 0.99974185}
+  m_LocalPosition: {x: 0, y: 1.178, z: -13.169}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_LocalEulerAnglesHint: {x: 2.604, y: 0, z: 0}
 --- !u!1 &1032182732
 GameObject:
   m_ObjectHideFlags: 0
@@ -1086,6 +1098,18 @@ MonoBehaviour:
           m_StringArgument: Explode
           m_BoolArgument: 0
         m_CallState: 2
+      - m_Target: {fileID: 1558536238}
+        m_TargetAssemblyTypeName: UnityEngine.Animator, UnityEngine
+        m_MethodName: Play
+        m_Mode: 5
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: Explode
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &1426621911
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1151,7 +1175,7 @@ RectTransform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1504856277}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: -0.596}
+  m_LocalPosition: {x: 0, y: 0, z: -0.502}
   m_LocalScale: {x: 0.0004720922, y: 0.0004720922, z: 0.0004720922}
   m_Children:
   - {fileID: 1558536235}
@@ -1235,6 +1259,7 @@ GameObject:
   - component: {fileID: 1558536235}
   - component: {fileID: 1558536237}
   - component: {fileID: 1558536236}
+  - component: {fileID: 1558536238}
   m_Layer: 5
   m_Name: FaceSprite
   m_TagString: Untagged
@@ -1299,6 +1324,25 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1558536234}
   m_CullTransparentMesh: 1
+--- !u!95 &1558536238
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1558536234}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: c7e0de9e3fab13147920d04f519ec55c, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0
 --- !u!1 &1822285611
 GameObject:
   m_ObjectHideFlags: 0
