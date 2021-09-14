@@ -2194,14 +2194,14 @@ AnimationClip:
   m_HasMotionFloatCurves: 0
   m_Events:
   - time: 0.55
-    functionName: PlayJumpParticle
+    functionName: PlayFirstJumpParticle
     data: 
     objectReferenceParameter: {fileID: 0}
     floatParameter: 0
     intParameter: 0
     messageOptions: 0
   - time: 1.15
-    functionName: PlayJumpParticle
+    functionName: PlaySecondJumpParticle
     data: 
     objectReferenceParameter: {fileID: 0}
     floatParameter: 0
